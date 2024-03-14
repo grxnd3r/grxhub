@@ -1,2 +1,2 @@
 # grxhub
-Simple website with funny tools, made for my personnal learning
+Simple website with useful/funny tools, made for my personnal learning
