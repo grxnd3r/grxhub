@@ -1,0 +1,43 @@
+#y-navbar {
+    min-height: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#y-navbar .title
+{
+    font-size: 30px;
+    margin: 20px 0;
+    color: var(--color-4);
+}
+
+#y-navbar .element {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    transition: 0.25s;
+    background-color: red;
+}
+
+#y-navbar .element img {
+    width: 25px;
+    height: 25px;
+}
+
+#y-navbar .element span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--color-5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#y-navbar .element:hover {
+    /* move to the right */
+    transform: translateX(10px);
+    color: white;
+}
