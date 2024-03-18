@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/debug.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/lib.js"></script>
 </head>
 
 <body>
@@ -27,8 +28,7 @@
             </li>
         </ul>
         <form class="d-flex px-3">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
         </form>
     </nav>
 
@@ -36,12 +36,13 @@
         <div class="title">
             GRXHUB
         </div>
-        <div class="element justify-content-between bg-dark">
+        <!-- <div class="element justify-content-between bg-dark">
             <div class="left-block d-flex align-items-center mx-2">
                 <img src="assets/images/1-circle.svg" class="ms-2 me-4"></img>
                 <span>Element</span>
             </div>
-        </div>
+        </div> -->
+        <script src="scripts/loadElements.js"></script>
     </nav>
 </body>
 
