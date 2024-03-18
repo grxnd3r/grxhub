@@ -23,7 +23,7 @@
                 <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com">GitHub</a>
+                <a class="nav-link" href="https://github.com/grxnd3r" target="_blank">GitHub</a>
             </li>
         </ul>
         <form class="d-flex px-3">
@@ -33,23 +33,15 @@
     </nav>
 
     <nav id="y-navbar" class="navbar-dark bg-dark">
-        <div class="title bowlby-one">
+        <div class="title">
             GRXHUB
         </div>
-        <script>
-            for (let i = 0; i < 15; i++)
-            {
-                document.write(`
-                    <div class="element justify-content-between bg-dark">
-                    <div class="left-block d-flex align-items-center mx-2">
-                        <img src="assets/images/1-circle.svg"></img>
-                        <span>Element</span>
-                    </div>
-                    <img src="assets/images/chevron-right.svg" class="mx-2"></img>
-                    </div>
-                `);
-            }
-        </script>
+        <div class="element justify-content-between bg-dark">
+            <div class="left-block d-flex align-items-center mx-2">
+                <img src="assets/images/1-circle.svg" class="ms-2 me-4"></img>
+                <span>Element</span>
+            </div>
+        </div>
     </nav>
 </body>
 

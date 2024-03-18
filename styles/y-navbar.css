@@ -10,34 +10,36 @@
 {
     font-size: 30px;
     margin: 20px 0;
+    font-weight: bold;
     color: var(--color-4);
 }
 
 #y-navbar .element {
-    width: 100%;
-    height: 80px;
+    width: 90%;
+    height: 60px;
     display: flex;
     align-items: center;
     transition: 0.25s;
-    background-color: red;
+    margin: 5px 0;
+    border-radius: 10px;
 }
 
 #y-navbar .element img {
     width: 25px;
     height: 25px;
+    color: white;
 }
 
 #y-navbar .element span{
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 15px;
     font-weight: bold;
     background-color: var(--color-5);
-    padding: 5px;
+    /* padding: 5px; */
     border-radius: 10px;
 }
 
 #y-navbar .element:hover {
-    /* move to the right */
-    transform: translateX(10px);
-    color: white;
+    background-color: var(--color-1) !important;
+    cursor: pointer;
 }
